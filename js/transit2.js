@@ -1,13 +1,13 @@
 /* ================= TRANSLATION MAP ================= */
 const transMap = {
     // Planets
-    "சூரி": "Sun", "சந்": "Moon", "செவ்": "Mars", "புத": "Mer",
+    "சூரி": "Su", "சந்": "Mo", "செவ்": "Mar", "புத": "Mer",
     "குரு": "Jup", "சுக்": "Ve", "சனி": "Sat", "ராகு": "Ra", "கேது": "Ke",
     // Signs
     "மே": "Ari", "ரிஷ": "Tau", "மிது": "Gem", "கட": "Can",
     "சிம்": "Leo", "கன்": "Vir", "துலா": "Lib", "விரு": "Sco",
     "தனு": "Sag", "மக": "Cap", "கும்": "Aqu", "மீன": "Pis",
-    "மேச": "Aries", "ரிச": "Taurus"
+    "மேச": "Ari", "ரிச": "Tau"
 };
 
 function t(str) {
@@ -93,3 +93,4 @@ window.addEventListener("languageChange", () => {
     loadPlanets(); // Update dropdown text
     renderTransitData(); // Update table content
 });
+
