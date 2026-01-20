@@ -1,17 +1,17 @@
 /* ================= TRANSLATION MAP ================= */
 const transMap = {
   // Planets
-  "சூரி": "Sun", "சந்": "Moon", "செவ்": "Mars", "புத": "Mercury",
-  "குரு": "Jupiter", "சுக்": "Venus", "சனி": "Saturn", "ராகு": "Rahu", "கேது": "Kethu",
-  "குரு-(வ)": "Jupiter (R)", "சனி-(வ)": "Saturn (R)", "புத-(வ)": "Mercury (R)",
+  "சூரி": "Su", "சந்": "Mo", "செவ்": "Ma", "புத": "Mer",
+  "குரு": "Jup", "சுக்": "Ve", "சனி": "Sat", "ராகு": "Ra", "கேது": "Ke",
+  "குரு-(வ)": "Jup (R)", "சனி-(வ)": "Sat (R)", "புத-(வ)": "Mer (R)",
   // Signs
-  "மே": "Aries", "ரிஷ": "Taurus", "மிது": "Gemini", "கட": "Cancer",
-  "சிம்": "Leo", "கன்": "Virgo", "துலா": "Libra", "விரு": "Scorpio",
-  "தனு": "Sagittarius", "மக": "Capricorn", "கும்": "Aquarius", "மீன": "Pisces",
+  "மே": "Ari", "ரிஷ": "Ta", "மிது": "Gem", "கட": "Can",
+  "சிம்": "Leo", "கன்": "Vir", "துலா": "Lib", "விரு": "Sco",
+  "தனு": "Sag", "மக": "Cap", "கும்": "Aqu", "மீன": "Pis",
   "மேச": "Aries", "ரிச": "Taurus",
   // Days
   "ஞாயிறு": "Sunday", "திங்கள்": "Monday", "செவ்வாய்": "Tuesday", "புதன்": "Wednesday",
-  "வியாழன்": "Thursday", "வெள்ளி": "Friday", "சனி": "Saturday"
+  "வியாழன்": "Thursday", "வெள்ளி": "Friday", "சனி": "Sat"
 };
 
 function t(str) {
@@ -110,3 +110,4 @@ btn.onclick = loadData;
 window.addEventListener("languageChange", () => {
   renderTable();
 });
+
